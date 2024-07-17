@@ -74,3 +74,79 @@
     line-height: 120%;
     letter-spacing: 0%;
   }
+
+  /* hero section related styles */
+  .hero-section{
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    gap: 167px;
+  }
+
+  .hero-content-container{
+    max-width: 520px;
+  }
+
+  .hero-title{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+
+  #shape{
+    font-family: "Miama", sans-serif;
+    font-weight: 400;
+    font-size: 78px;
+    color: rgb(255, 255, 255);
+  }
+
+  .hero-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  .hero-btn-orange{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    padding: 16px 40px 16px 40px;
+
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+  }
+
+  .hero-btn-black{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    padding: 16px 40px 16px 40px;
+    background-color: black;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+  }
+
+  #hero-text-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+  }
+
+  #hero-orange-circle{
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+  }
