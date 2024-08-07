@@ -292,10 +292,15 @@
       display: none;
     }
 
+    .hero-btn-black{
+      width: 200px;
+      font-size: 14px;
+    }
+
     .hero-btn-orange-mobile{
       color: rgb(255, 255, 255);
       font-family: Inter;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 600;
       line-height: 22px;
       letter-spacing: 0px;
@@ -305,6 +310,7 @@
       border-radius: 42px;
       background: rgb(230, 83, 60);
       border: none;
+      width: 200px;
     }
 
     .hero-img-container{
