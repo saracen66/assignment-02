@@ -434,7 +434,7 @@
     }
 
     .hero-img-container img {
-      margin-left: 20px;
+      margin-left: 66px;
     }
 
     #hero-btn-text-container{
@@ -503,7 +503,7 @@
     height: 74.09px;
 
     margin-top: -280px;
-    margin-left: 210px;
+    margin-left: 260px;
   }
 
   #hero-btn-text-container-2 h4{
@@ -529,6 +529,55 @@
   }
 
   /* responsive style of nav and hero section ends here */
+
+  /* responsive style of Habit section starts */
+
+  #habit{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    max-width: 353px;
+    margin: 600px auto;
+  }
+
+  .habit-upper-content-container{
+    max-width: 318px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .habit-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 318px;
+    margin: 0 auto;
+  }
+
+  .habit-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .habit-middle-content-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .habit-lower-content-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   
 }
