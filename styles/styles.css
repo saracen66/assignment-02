@@ -225,6 +225,75 @@
     text-align: left;
   }
 
+  #habit{
+    max-width: 1060px;
+    margin: 176px auto;
+    
+  }
+
+  .habit-upper-content-container{
+    max-width: 671px;
+    margin: 0 auto;
+  }
+
+  .habit-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 0px 14px 0px;
+  }
+
+  .habit-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0px 0px 54px 0px;
+  }
+
+  .habit-middle-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1044px;
+    margin: 0 auto;
+    gap: 100px;
+  }
+
+  .habit-middle-content-container img{
+    border-radius: 50%;
+  }
+
+  .habit-middle-content-container h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 26px 0px 6px 0px;
+  }
+
+  .habit-middle-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    /* width: 231px; */
+  }
+
+  
   @media screen and (max-width:576px) {
 
     *{
@@ -232,6 +301,7 @@
       /* padding: 0; */
     }
 
+    /* responsive style of nav and hero section starts */
     nav{
       margin-top: 52px;
       margin-left: 20px;
@@ -288,7 +358,7 @@
       display: flex;
     }
 
-    .hero-btn-orange{
+    .hero-section .double-btn-container > .hero-btn-orange{
       display: none;
     }
 
@@ -413,8 +483,10 @@
     margin: 0;
   }
 
+  /* responsive style of nav and hero section ends here */
+
   
-  }
+}
 
   @media only screen and (min-width: 1200px){
     
@@ -422,3 +494,5 @@
     display: none;
     }
   }
+
+  
