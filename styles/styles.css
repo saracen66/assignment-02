@@ -293,6 +293,51 @@
     /* width: 231px; */
   }
 
+  .habit-lower-content-container{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    max-width: 1060px;
+    max-height: 371px;
+    margin-top: 100px;
+  }
+
+  .habit-lower-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 41px 0px 14px 54px;
+  }
+
+  .habit-lower-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 0px 0px 34px 54px;
+  }
+
+  .habit-lower-content-container .hero-btn-orange{
+    margin: 0px 0px 40px 54px;
+  }
+
+  .habit-lower-content-container img{
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 18px;
+    margin: 30px 32px 29px 0px;
+  }
+
   
   @media screen and (max-width:576px) {
 
