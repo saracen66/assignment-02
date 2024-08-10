@@ -408,7 +408,7 @@
     }
 
     .hero-btn-black{
-      width: 200px;
+      max-width: 200px;
       font-size: 14px;
     }
 
@@ -425,7 +425,7 @@
       border-radius: 42px;
       background: rgb(230, 83, 60);
       border: none;
-      width: 200px;
+      width: 179px;
     }
 
     .hero-img-container{
