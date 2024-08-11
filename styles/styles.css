@@ -533,6 +533,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    margin-bottom: 88px;
   }
 
   .trainer-card {
@@ -1019,7 +1020,7 @@
   .team-img-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto 0 auto;
+    margin: 0 auto 66px auto;
     padding: 20px 0px 20px 0px;
     max-width: 353px;
   }
@@ -1029,9 +1030,7 @@
     margin: 0 auto;
   }
 
-  .team-img-container{
-    max-width: 353px;
-    }
+
 
   /* responsive style of OUR TEAM section ends here */
 
