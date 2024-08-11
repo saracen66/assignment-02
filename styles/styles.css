@@ -344,7 +344,8 @@
 
   #bmi-upper-content-container{
     max-width: 671px;
-    margin: 0px auto 88px auto;
+    margin: 0px auto 60px auto;
+    max-width: 310px;
   }
 
   #bmi-upper-content-container h2{
@@ -354,7 +355,7 @@
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     margin: 0px 0px 14px 0px;
   }
 
@@ -365,7 +366,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
-    text-align: left;
+    text-align: center;
   }
 
   #bmi{
@@ -689,7 +690,7 @@
     grid-template-columns: repeat(1, 1fr);
     
     max-width: 353px;
-    margin: 600px auto;
+    margin: 600px auto 100px auto;
   }
 
   .habit-upper-content-container{
@@ -817,8 +818,86 @@
   /* responsive style of Habit section ends here */
 
   /* responsive style of bmi section starts */
-  
 
+  #bmi-upper-content-container{
+    padding: 0px 32px 0px 32px;
+  }
+  
+  #bmi-upper-content-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  #bmi-upper-content-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+
+  .table-container{
+    padding: 0px;
+  }
+
+  #bmi{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 42px;
+  }
+
+  .bmi-chart h3{
+    padding: 34px 0px 23px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .bmi-calculator h3{
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 14px;
+  }
+
+  .bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    max-width: 310px;
+  }
+
+  .bmi-calculator-form{
+    width: 310px;
+  }
+
+  .bmi-chart{
+    margin: 0 auto;
+  }
+
+  .bmi-calculator{
+    margin: 0 auto;
+  }
 
   /* responsive style of bmi section ends here */
   
