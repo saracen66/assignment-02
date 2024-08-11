@@ -573,6 +573,93 @@
   color: #ccc;
   }
 
+
+  /* Footer related Styles */
+
+  #footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 66px;
+    padding-bottom: 35px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  #footer h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 20px 0;
+  }
+
+  #footer .footer-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+
+  .footer-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 152px;
+  }
+
+  .footer-content-left{
+    width: 443px;
+  }
+
+  #footer h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 33px 0;
+  }
+
+  #footer h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 18px 0;
+  }
+
+  hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    max-width: 1060px;
+    margin-top: 75px;
+    margin-bottom: 33px;
+  }
+
+  #copyright-container{
+    max-width: 318px;
+    margin: 0 auto;
+  }
+
+  #copyright-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
   
   @media screen and (max-width:576px) {
 
@@ -1030,9 +1117,29 @@
     margin: 0 auto;
   }
 
-
-
   /* responsive style of OUR TEAM section ends here */
+
+  /* responsive style of Footer Section starts */
+
+  .footer-content-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding-left: 30px;
+  }
+
+  .footer-content-left{
+    max-width: 317px;
+  }
+
+  hr{
+    width: 354px;
+    margin: 70px auto 40px auto;
+  }
+
+  #copyright-text{
+    font-size: 14px;
+  }
 
 
   }
